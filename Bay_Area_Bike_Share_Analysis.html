@@ -11774,8 +11774,9 @@ div#notebook {
 <p>In 2014, Bay Area Bike Share held an <a href="http://www.bayareabikeshare.com/datachallenge-2014">Open Data Challenge</a> to encourage data analysts to create visualizations based on their open data set. You’ll create your own visualizations in this project, but first, take a look at the <a href="http://thfield.github.io/babs/index.html">submission winner for Best Analysis</a> from Tyler Field. Read through the entire report to answer the following question:</p>
 <p><strong>Question 2</strong>: What visualizations do you think provide the most interesting insights? Are you able to answer either of the questions you identified above based on Tyler’s analysis? Why or why not?</p>
 <p><strong>Answer</strong>: 
-The line chart showing rides per day with the ability to highlight weekends is most interesting.</p>
-<p>I believe the analysis both the questions. It appears that it is more profitable to keep the overage use charges and that customers actually ride longer to their own detriment despite having cheaper options.</p>
+The line chart showing rides per day with the ability to highlight weekends is most interesting. This shows that commuters (most probably subscribers) use the service the most and that their patterns are mostly on weekdays.</p>
+<p>I believe the analysis answers both the questions. 
+There are definite usage differences between the subscribers vs. the customers. In addition, it appears that it is more profitable to keep the overage use charges and that customers actually ride longer to their own detriment despite having cheaper options.</p>
 
 </div>
 </div>
@@ -14762,7 +14763,7 @@ JAkDgSRJAv4fm+rXY6ykxqgAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_month&#39;</span><span class="p">)</span>
@@ -14943,7 +14944,7 @@ ZxiQJKlw/x89U0FnefKZlgAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_hour&#39;</span><span class="p">)</span>
@@ -15150,7 +15151,7 @@ x3P6DRmRAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_hour&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;subscription_type == &#39;Subscriber&#39;&quot;</span><span class="p">],</span> <span class="n">boundary</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">bin_width</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -15352,7 +15353,7 @@ VCADgCRJBTIASJJUIAOAJEkFMgBIklQgA4AkSQUyAEiSVKD/D2cHjMWNSE9iAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_hour&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;subscription_type == &#39;Customer&#39;&quot;</span><span class="p">],</span> <span class="n">boundary</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">bin_width</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -15525,7 +15526,7 @@ QmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_city&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;subscription_type == &#39;Subscriber&#39;&quot;</span><span class="p">])</span>
@@ -15739,7 +15740,7 @@ CCRJkoFAkiRhIJAkSRgIJEkSBgJJkoSBQJIkAf8fX0x+lv4mbAYAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">usage_plot</span><span class="p">(</span><span class="n">trip_data</span><span class="p">,</span> <span class="s1">&#39;start_city&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;subscription_type == &#39;Customer&#39;&quot;</span><span class="p">])</span>
@@ -15955,7 +15956,7 @@ rkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Final Plot 1</span>
@@ -16169,7 +16170,7 @@ VCADgCRJBTIASJJUIAOAJEkFMgBIklQgA4AkSQUyAEiSVKD/D2cHjMWNSE9iAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Final Plot 2</span>
@@ -16359,26 +16360,13 @@ QmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>Congratulations on completing the project! This is only a sampling of the data analysis process: from generating questions, wrangling the data, and to exploring the data. Normally, at this point in the data analysis process, you might want to draw conclusions about our data by performing a statistical test or fitting the data to a model for making predictions. There are also a lot of potential analyses that could be performed on the data which are not possible with only the code given. Instead of just looking at number of trips on the outcome axis, you could see what features affect things like trip duration. We also haven't looked at how the weather data ties into bike usage.</p>
 <p><strong>Question 6</strong>: Think of a topic or field of interest where you would like to be able to apply the techniques of data science. What would you like to be able to learn from your chosen subject?</p>
-<p><strong>Answer</strong>: I'm interested in using similarity matching to match transaction from known fraudulent vendors/employees against the rest the data set of transactions to possibly identify patterns making of frauds.</p>
+<p><strong>Answer</strong>: I'm interested in using similarity matching to match transactions from known fraudulent vendors/employees against the rest the data set of transactions to identify patterns which make up fraudulent scenarios.</p>
 <blockquote><p><strong>Tip</strong>: If we want to share the results of our analysis with others, we aren't limited to giving them a copy of the jupyter Notebook (.ipynb) file. We can also export the Notebook output in a form that can be opened even for those without Python installed. From the <strong>File</strong> menu in the upper left, go to the <strong>Download as</strong> submenu. You can then choose a different format that can be viewed more generally, such as HTML (.html) or
 PDF (.pdf). You may need additional packages or software to perform these exports.</p>
 </blockquote>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
